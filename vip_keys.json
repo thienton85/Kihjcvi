@@ -1,0 +1,16 @@
+{
+  "vip_keys": [
+    {
+      "key": "VIP12345",
+      "status": "unused",
+      "device_id": null,
+      "created_at": "2025-03-23T10:00:00Z"
+    },
+    {
+      "key": "VIP67890",
+      "status": "used",
+      "device_id": "550e8400-e29b-41d4-a716-446655440000",
+      "created_at": "2025-03-23T12:00:00Z"
+    }
+  ]
+}
