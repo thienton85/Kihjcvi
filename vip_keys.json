@@ -17,6 +17,12 @@
       "status": "used",
       "device_id": "0ERfZTEMmU2NjIyNDFlNzk3ZGE1MWE=",
       "created_at": "2025-03-23T11:02:22.253255Z"
+    },
+    {
+      "key": "VIP98050",
+      "status": "unused",
+      "device_id": null,
+      "created_at": "2025-03-23T13:24:38.266548Z"
     }
   ]
 }
