@@ -24,6 +24,7 @@ SCRIPTS = {
     "9": {"name": "Zalo: Nhắn tin", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"}
 }
 
+# Di chuyển các hàm phụ trợ lên đầu để đảm bảo chúng được định nghĩa trước khi gọi
 def clear_screen():
     """Xóa màn hình console"""
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -233,24 +234,32 @@ def main():
     logging.info("Hệ thống khởi động")
     
     while True:
-        display_menu()
-        choice = input(f"\n{Fore.CYAN}  ▸ {Style.NORMAL}Nhập lựa chọn (0-9):{Style.RESET_ALL} ")
+        try:
+            display_menu()
+            choice = input(f"\n{Fore.CYAN}  ▸ {Style.NORMAL}Nhập lựa chọn (0-9):{Style.RESET_ALL} ")
 
-        if choice == "0":
+            if choice == "0":
+                clear_screen()
+                wave_effect("╔════ TẮT HỆ THỐNG ════╗", Fore.RED)
+                wave_effect(f"║ Ngoại tuyến: {time.strftime('%Y-%m-%d %H:%M:%S')} ║", Fore.RED)
+                wave_effect("╚═══════════════════════╝", Fore.RED)
+                logging.info("Hệ thống tắt")
+                break
+            elif choice in SCRIPTS:
+                script_info = SCRIPTS[choice]
+                transition_to_tool(script_info['name'])
+                run_script_from_url(script_info['url'], script_info['name'])
+                input(f"\n{Fore.YELLOW}Nhấn Enter để quay lại...{Style.RESET_ALL}")
+            else:
+                fade_in_line("✘ Lệnh không hợp lệ!", Fore.RED)
+                input(f"\n{Fore.YELLOW}Nhấn Enter để tiếp tục...{Style.RESET_ALL}")
+        except KeyboardInterrupt:
             clear_screen()
             wave_effect("╔════ TẮT HỆ THỐNG ════╗", Fore.RED)
-            wave_effect(f"║ Ngoại tuyến: {time.strftime('%Y-%m-%d %H:%M:%S')} ║", Fore.RED)
+            wave_effect(f"║ Thoát bởi người dùng: {time.strftime('%Y-%m-%d %H:%M:%S')} ║", Fore.RED)
             wave_effect("╚═══════════════════════╝", Fore.RED)
-            logging.info("Hệ thống tắt")
+            logging.info("Hệ thống thoát bởi người dùng")
             break
-        elif choice in SCRIPTS:
-            script_info = SCRIPTS[choice]
-            transition_to_tool(script_info['name'])
-            run_script_from_url(script_info['url'], script_info['name'])
-            input(f"\n{Fore.YELLOW}Nhấn Enter để quay lại...{Style.RESET_ALL}")
-        else:
-            fade_in_line("✘ Lệnh không hợp lệ!", Fore.RED)
-            input(f"\n{Fore.YELLOW}Nhấn Enter để tiếp tục...{Style.RESET_ALL}")
 
 if __name__ == "__main__":
     main()
