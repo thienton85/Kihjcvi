@@ -17,7 +17,7 @@ SCRIPTS = {
     "2": {"name": "Đào proxy + check live", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/proxy.py"},
     "3": {"name": " Auto golike Snapchat", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/snglchmh.py"},
     "4": {"name": "Golike Linkedin", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/demold.py"},
-    "5": {"name": "Reg Facebook", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regfbv.py"},
+    "5": {"name": "Reg Facebook Vip", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regfbvipmh.py"},
     "6": {"name": "Script 6: Đăng bài", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
     "7": {"name": "Admin: Quản lý", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
     "8": {"name": "YouTube: Tự động", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
