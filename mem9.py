@@ -13,9 +13,9 @@ logging.basicConfig(filename='script_runner.log', level=logging.INFO,
 
 # Danh sách các mục với URL
 SCRIPTS = {
-    "1": {"name": "reg mail.tm", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regtm.py"},
-    "2": {"name": "đào proxy + check live", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/proxy.py"},
-    "3": {"name": "Golike Threads", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-Theads/refs/heads/main/p.py"},
+    "1": {"name": "Reg mail.tm", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regtm.py"},
+    "2": {"name": "Đào proxy + check live", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/proxy.py"},
+    "3": {"name": " Auto golike Snapchat", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/snglchmh.py"},
     "4": {"name": "Golike Linkedin", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/demold.py"},
     "5": {"name": "Reg Facebook", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regfbv.py"},
     "6": {"name": "Script 6: Đăng bài", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
