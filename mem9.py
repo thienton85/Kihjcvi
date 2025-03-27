@@ -15,13 +15,13 @@ logging.basicConfig(filename='script_runner.log', level=logging.INFO,
 SCRIPTS = {
     "1": {"name": "Reg mail.tm", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regtm.py"},
     "2": {"name": "Đào proxy + check live", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/proxy.py"},
-    "3": {"name": "Auto golike Snapchat", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/Snmh.py"},
+    "3": {"name": "Auto golike Snapchat CH", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/Snmh.py"},
     "4": {"name": "Golike Linkedin", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/demold.py"},
     "5": {"name": "Reg Facebook Vip", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regfbvipmh.py"},
-    "6": {"name": "Script 6: Đăng bài", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
-    "7": {"name": "Admin: Quản lý", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
-    "8": {"name": "YouTube: Tự động", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
-    "9": {"name": "Zalo: Nhắn tin", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"}
+    "6": {"name": "Auto golike Snapchat KH", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/snglkh.py"},
+    "7": {"name": "chưa thêm", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
+    "8": {"name": "chưa thêm", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
+    "9": {"name": "chưa thêm", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"}
 }
 
 def clear_screen():
