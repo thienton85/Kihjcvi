@@ -107,8 +107,8 @@
     },
     {
       "key": "VIP53392",
-      "status": "unused",
-      "device_id": null,
+      "status": "used",
+      "device_id": "a21e28a4-afae-499f-a9b8-a21bfee92fff",
       "created_at": "2025-03-29T22:39:37.141690+07:00",
       "expiration_date": "2025-04-08T23:23:37.141690+07:00"
     }
