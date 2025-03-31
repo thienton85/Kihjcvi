@@ -128,8 +128,8 @@
     },
     {
       "key": "VIP79254",
-      "status": "unused",
-      "device_id": null,
+      "status": "used",
+      "device_id": "dd0ed12c-866f-41eb-88bc-fd1f8c92efe2",
       "created_at": "2025-03-31T19:40:53.189261+07:00",
       "expiration_date": "2025-04-01T19:40:53.189261+07:00"
     }
