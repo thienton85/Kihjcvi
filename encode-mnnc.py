@@ -19,7 +19,7 @@ SCRIPTS = {
     "4": {"name": "Auto Golike Tiktok adb + thủ công", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/encode-adbltt.py"},
     "5": {"name": "Reg Facebook Vip", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/regfbvipmh.py"},
     "6": {"name": "Auto golike Snapchat trực tiếp nhận tiền", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/snglkh.py"},
-    "7": {"name": "chưa thêm", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
+    "7": {"name": "Auto golike X trực tiếp nhận tiền (demo)", "url": "https://raw.githubusercontent.com/thienton85/Kihjcvi/refs/heads/main/xvip.py"},
     "8": {"name": "chưa thêm", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"},
     "9": {"name": "chưa thêm", "url": "https://raw.githubusercontent.com/Khanh23047/Golike-likedin/refs/heads/main/p.py"}
 }
