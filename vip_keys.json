@@ -142,10 +142,17 @@
     },
     {
       "key": "VIP93948",
-      "status": "unused",
-      "device_id": null,
+      "status": "used",
+      "device_id": "a21e28a4-fae-499a9b8-a21bfee92ffff",
       "created_at": "2025-04-02T15:26:38.758614+07:00",
-      "expiration_date": "2025-04-02T15:40:38.758614+07:00"
+      "expiration_date": "2025-04-03T15:27:11.295390+07:00"
+    },
+    {
+      "key": "VIP93948",
+      "status": "used",
+      "device_id": "a21e28a4-fae-499a9b8-a21bfee92ffff",
+      "created_at": "2025-04-02T15:26:38.758614+07:00",
+      "expiration_date": "2025-04-03T15:27:11.295390+07:00"
     }
   ]
 }
