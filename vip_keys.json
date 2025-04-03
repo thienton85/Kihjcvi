@@ -16,10 +16,17 @@
     },
     {
       "key": "SCW9jkCAuz",
-      "status": "unused",
-      "device_id": null,
+      "status": "used",
+      "device_id": "6e5c2bc2-b493-495b-8237-0990565aa2ea",
       "created_at": "2025-04-03T10:53:40.075875+07:00",
-      "expiration_date": "2025-04-04T10:53:40.075173+07:00"
+      "expiration_date": "2025-04-04T10:55:15.224954+07:00"
+    },
+    {
+      "key": "SCW9jkCAuz",
+      "status": "used",
+      "device_id": "6e5c2bc2-b493-495b-8237-0990565aa2ea",
+      "created_at": "2025-04-03T10:53:40.075875+07:00",
+      "expiration_date": "2025-04-04T10:55:15.224954+07:00"
     }
   ]
 }
